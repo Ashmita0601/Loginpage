@@ -1,0 +1,73 @@
+body {
+  background-color: #6a62d2;
+}
+.txt {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  background-color: white;
+  width: max-content;
+  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 50px;
+  padding-top: 3px;
+  padding-bottom: 18px;
+  transform: translate(-50%, 50%);
+}
+.email {
+  width: 100%;
+  padding: 15px;
+  background-color: #e5e9ed;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.password {
+  width: 100%;
+  padding: 15px;
+  background-color: #e5e9ed;
+  border: none;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.tick {
+  margin-bottom: 15px;
+}
+label {
+  font-size: 12px;
+}
+.button {
+  width: 112%;
+  margin-bottom: 15px;
+  background-color: #6a62d2;
+  padding: 15px;
+  padding-right: 12px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 2px;
+}
+button:hover {
+  background-color: #8982e6;
+  cursor: pointer;
+}
+a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #aaaaaa;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.anchor {
+  text-align: center;
+}
